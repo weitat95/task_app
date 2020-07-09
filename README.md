@@ -1,12 +1,12 @@
-# task_app
+# Task CRUD Application
 
 A simple application to display CRUD operations from a backend server connected to MySQL Database.
 
-# Requirements
+### Requirements
 
 Make sure mysql database is setup and ```connect_database.php``` is properly configured with the proper credentials.
 
-# Testing
+### Testing
 
 Start the frontend server 
 ```
