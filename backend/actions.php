@@ -42,7 +42,7 @@
 
     require_once('connect_database.php');
 
-    if (isset($_POST['create'])){
+    if (isset($_POST['create']) && !empty($_POST['name']) && !empty($_POST['detail'])){
 
         addTask($conn, $_POST['name'], $_POST['detail']);
 
@@ -50,7 +50,7 @@
 
         deleteTask($conn, $_POST['id']);
 
-    } elseif (isset($_POST['modify'])){
+    } elseif (isset($_POST['modify']) && !empty($_POST['name']) && !empty($_POST['detail'])){
         
         updateTask($conn, $_POST['id'], $_POST['name'], $_POST['detail']);
 
