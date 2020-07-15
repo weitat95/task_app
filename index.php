@@ -6,7 +6,7 @@
     </head> 
     <body>
         <h2>Add tasks</h2>
-        <form method="post" action="https://task-app-backendaa.herokuapp.com/actions.php">
+        <form method="post" action="http://localhost:9999/actions.php">
             <span class="add-s">Task Name: </span> <input type="text" name="name"> <br>
             <span class="add-s">Task Details: </span> <input type="text" name="detail"> <br>
             <input value="Add Tasks" type="submit" name="create">
@@ -30,13 +30,13 @@
             <td id="name">taskName</td>
             <td id="detail">taskDetail</td>
             <td>
-                <form method="post" action="https://task-app-backendaa.herokuapp.com/actions.php">
+                <form method="post" action="http://localhost:9999/actions.php">
                     <input type="hidden" name="id" value="10" id="idd">
                     <input type="submit" value="DELETE" name="delete">
                 </form> 
             </td>
             <td>
-                <form method="post" action="https://task-app-backendaa.herokuapp.com/actions.php"> 
+                <form method="post" action="http://localhost:9999/actions.php"> 
                     <input type="hidden" name="id" value="10" id="idm">
                         Name: <input type="text" name="name">
                         Detail: <input type="text" name="detail">
