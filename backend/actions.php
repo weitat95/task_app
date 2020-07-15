@@ -59,6 +59,6 @@
     }
 
     $conn->close();
-    header("Location: http://localhost:8889/index.php"); 
+    header("Location: https://task-app-123.herokuapp.com/"); 
 
 ?>
