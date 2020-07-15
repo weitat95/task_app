@@ -4,7 +4,7 @@
     //$username = "root";
     //$password = "password";
     $username = "b41c604898f785";
-    $password = "91c130f6"
+    $password = "91c130f6";
     $dbname = "neoasia";
     
     // Create connection

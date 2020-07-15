@@ -16,6 +16,6 @@ window.onload = function(){
             });
         }
     };
-    xmlhttp.open("GET", "http://localhost:9999/read_database.php", true);
+    xmlhttp.open("GET", "https://task-app-backendaa.herokuapp.com/read_database.php", true);
     xmlhttp.send();
 }
